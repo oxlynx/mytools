@@ -33,7 +33,7 @@ echo $biru   ""
 sleep 0.5;
 echo $merah  "[00] ╭⊂➸Keluar       " $pink   "[06] ╭⊂➸Ddos Attack"
 sleep 0.5;
-echo $hijau  "[01] ╰⊂➸Install bahan" $biru   "[07] ╰⊂➸Prank      "
+echo $hijau  "[01] ╰⊂➸Install Bahan" $biru   "[07] ╰⊂➸Prank      "
 sleep 0.5;
 echo $kuning "[02] ╭⊂➸Fb Brute     " $merah  "[08] ╭⊂➸New Prank  "
 sleep 0.5;
@@ -137,8 +137,8 @@ fi
 if [ $ox = 8 ] || [ $ox = 08 ]
 then
 echo $biru   ""
-echo $biru   "python3 sms.py [PRANK SMS]"
-echo $pink   "python3 call.ly [PRANK CALL]"
+echo $hijau  "python3 sms.py [PRANK SMS]"
+echo $pink   "python3 call.py [PRANK CALL]"
 echo $kuning "Ketik [sh mytools.sh] Untuk Main Menu"
 echo $pink   ""
 fi
